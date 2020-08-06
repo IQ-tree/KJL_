@@ -16,7 +16,7 @@ You can easily use KJL_ by using the script tag.
 For the latest version, link through the [kjl](https://github.com/IQ-tree/KJL_/tree/master/kjl) folder.
 
 
-Documentation
+<h1>Documentation</h1>
 --------------------------------------
 To use KJL_, you can use constant "_". While using KJL, you won't be able to make a variable with name _.
 
