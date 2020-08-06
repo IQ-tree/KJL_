@@ -52,7 +52,7 @@ const kjlobject = {
         }
         else if (abbv == "get" || abbv == "remove") {
             alert('case 2');
-            if (abbv == "get") {Cookies.get(name);}
+            if (abbv == "get") {return Cookies.get(name);}
             else if (abbv == "remove") {Cookies.remove(name); return;}
             else {alert('kjl_48 error: didn\'t provide value, invalid option. try \'get\' or \'remove\'.')}
         }
