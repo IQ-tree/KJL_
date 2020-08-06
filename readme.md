@@ -47,5 +47,5 @@ Reminder
 --------------------------------------
 This project is not released or completed yet.
 It is just on alpha stage.
-Contact to the link on type for bug reports.
+Contact to the link on top for bug reports.
 Thank you.
