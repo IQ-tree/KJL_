@@ -40,19 +40,17 @@ const kjlobject = {
                 }
                 else {
                     Cookies.set(name, value, {expires: parseInt(date)});
-                    console.log("case 1");
                     return;
                     
                 }
             }
             else {
                 Cookies.set(name, value);
-                console.log("case 2");
                 return;
             }
         }
         else if (abbv && name) {
-            if (abbv == "get") {Cookies.get("name");}
+            if (abbv == "get") {console.log(Cookies.get("name"));}
             else if (abbv == "remove") {Cookies.remove(name); return;}
             else {alert('kjl_48 error: didn\'t provide value, invalid option. try \'get\' or \'remove\'.')}
         }
