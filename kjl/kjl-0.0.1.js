@@ -31,33 +31,30 @@ const kjlobject = {
     }
     ,
     cookie: function(abbv, name, value, date) {
-        alert("ccase");
         if (abbv && name && value) {
-            alert("case");
             if (abbv != 'set'){ alert('kjl_35 error: value exists, but option is not \'set\'.'); return;}
-            if (date) {
-                if (Number.isInteger(date)) {
-                    Cookies.set(name, value, {expires: date});
-                    return;
+                if (date) {
+                    if (Number.isInteger(date)) {
+                        Cookies.set(name, value, {expires: date});
+                        return;
+                    }
+                    else {
+                        Cookies.set(name, value, {expires: parseInt(date)});
+                        return;
+                        
+                    }
                 }
                 else {
-                    Cookies.set(name, value, {expires: parseInt(date)});
+                    Cookies.set(name, value);
                     return;
-                    
                 }
-            }
-            else {
-                Cookies.set(name, value);
-                return;
-            }
         }
-        else if (abbv && name) {
+        else if (abbv == "get" || abbv == "remove") {
             if (abbv == "get") {Cookies.get(name);}
             else if (abbv == "remove") {Cookies.remove(name); return;}
             else {alert('kjl_48 error: didn\'t provide value, invalid option. try \'get\' or \'remove\'.')}
         }
         else {
-            alert("Case");
             return "Cookie option(get,set etc) or name or value missing.";
         } 
     }
