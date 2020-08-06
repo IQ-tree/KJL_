@@ -31,7 +31,7 @@ For the example on the top, it will create a cookie named `myCookie` with value 
 If you don't enter the date, it will set as 'delete when close tab'
 
 <h2>Return element with ID</h2>
-```js
+```
 _.id("button");
 ```
 This will simply return element with that id.
@@ -40,7 +40,7 @@ This will simply return element with that id.
 
 Questions
 --------------------------------------
-For questions, contact [here]("mailto:desbey7@naver.com")
+For questions, contact [here](mailto:desbey7@naver.com)
 
 
 Reminder
