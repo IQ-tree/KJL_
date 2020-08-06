@@ -17,7 +17,7 @@ For the latest version, link through the [kjl](https://github.com/IQ-tree/KJL_/t
 
 
 <h1>Documentation</h1>
---------------------------------------
+
 To use KJL_, you can use constant "_". While using KJL, you won't be able to make a variable with name _.
 
 To use KJL_, you can also use kjlobject. This is also a constant.
