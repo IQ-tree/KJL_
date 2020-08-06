@@ -32,6 +32,7 @@ const kjlobject = {
     ,
     cookie: function(abbv, name, value, date) {
         if (abbv && name && value) {
+            alert("case");
             if (abbv != 'set'){ alert('kjl_35 error: value exists, but option is not \'set\'.'); return;}
             if (date) {
                 if (Number.isInteger(date)) {
@@ -50,12 +51,12 @@ const kjlobject = {
             }
         }
         else if (abbv && name) {
-            alert("test 2");
             if (abbv == "get") {Cookies.get(name);}
             else if (abbv == "remove") {Cookies.remove(name); return;}
             else {alert('kjl_48 error: didn\'t provide value, invalid option. try \'get\' or \'remove\'.')}
         }
         else {
+            alert("Case");
             return "Cookie option(get,set etc) or name or value missing.";
         } 
     }
