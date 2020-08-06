@@ -13,7 +13,7 @@ To use KJL_, you can use constant "_". While using KJL, you won't be able to mak
 To use KJL_, you can also use kjlobject. This is also a constant.
 
 <h2>Changing CSS Style</h2>
-```
+```js
 _.css("#button", "display", "none");
 ```
 CSS Style changing is a function of JavaScript minified.
@@ -23,7 +23,7 @@ The first argument, `#button` could be a class element `.button` which will all 
 <h2>Setting/Getting/Deleting Cookies</h2>
 ```
 _.cookie("set", "myCookie", "value", 3);
-```
+```js
 For, Setting/Getting/Deleting Cookies, we used [js-cookie](https://github.com/js-cookie/js-cookie) library.
 Thanks to that, you can simply enter `"set"`, `"get"`, `"delete"` one of three and if it is a `set`, you will enter all 4 arguments and if it is one of `get` or `delete`, you can only enter 2 arguments.
 The 4th argument is the date argument. You can either type it as a Number or String.
@@ -31,7 +31,7 @@ For the example on the top, it will create a cookie named `myCookie` with value 
 If you don't enter the date, it will set as 'delete when close tab'
 
 <h2>Return element with ID</h2>
-```
+```js
 _.id("button");
 ```
 This will simply return element with that id.
