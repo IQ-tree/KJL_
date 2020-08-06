@@ -35,10 +35,12 @@ const kjlobject = {
             if (abbv != 'set'){ alert('kjl_35 error: value exists, but option is not \'set\'.'); return;}
                 if (date) {
                     if (Number.isInteger(date)) {
+                        if (date > 7200) {alert("Max cookie date limit is 7200."); return;}
                         Cookies.set(name, value, {expires: date});
                         return;
                     }
                     else {
+                        if (parseInt(date) > 7200) {alert("Max cookie date limit is 7200.");return;}
                         Cookies.set(name, value, {expires: parseInt(date)});
                         return;
                         
