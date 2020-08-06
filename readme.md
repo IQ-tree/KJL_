@@ -1,4 +1,4 @@
-[KJL_](https://iq-tree.github.io/KJL_) — New Short, Easy JavaScrpt
+[KJL_](https://iq-tree.github.io/KJL_) — New Short, Easy JavaScript
 ==================================================
 
 What is KJL?
