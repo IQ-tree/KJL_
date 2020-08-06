@@ -31,6 +31,7 @@ const kjlobject = {
     }
     ,
     cookie: function(abbv, name, value, date) {
+        alert("ccase");
         if (abbv && name && value) {
             alert("case");
             if (abbv != 'set'){ alert('kjl_35 error: value exists, but option is not \'set\'.'); return;}
