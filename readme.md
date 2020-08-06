@@ -27,7 +27,7 @@ To use KJL_, you can also use kjlobject. This is also a constant.
 ```js
 _.css("#button", "display", "none");
 ```
-CSS Style changing is a function of JavaScript minified.
+CSS Style changing is a function of JavaScript.
 So, if you want to change `z-index`, then you will have to type it as `zIndex`.
 The first argument, `#button` could be a class element `.button` which will all change elements with that class. It also could be a tag name like `h2`. In this case, it would be the same as class element. It will change all elements with that tag name.
 
