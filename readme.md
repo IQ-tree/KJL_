@@ -23,7 +23,7 @@ The first argument, `#button` could be a class element `.button` which will all 
 <h2>Setting/Getting/Deleting Cookies</h2>
 ```
 _.cookie("set", "myCookie", "value", 3);
-```js
+```
 For, Setting/Getting/Deleting Cookies, we used [js-cookie](https://github.com/js-cookie/js-cookie) library.
 Thanks to that, you can simply enter `"set"`, `"get"`, `"delete"` one of three and if it is a `set`, you will enter all 4 arguments and if it is one of `get` or `delete`, you can only enter 2 arguments.
 The 4th argument is the date argument. You can either type it as a Number or String.
