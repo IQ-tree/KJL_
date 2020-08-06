@@ -21,9 +21,9 @@ So, if you want to change `z-index`, then you will have to type it as `zIndex`.
 The first argument, `#button` could be a class element `.button` which will all change elements with that class. It also could be a tag name like `h2`. In this case, it would be the same as class element. It will change all elements with that tag name.
 
 <h2>Setting/Getting/Deleting Cookies</h2>
-```
-_.cookie("set", "myCookie", "value", 3);
 ```js
+_.cookie("set", "myCookie", "value", 3);
+```
 For, Setting/Getting/Deleting Cookies, we used [js-cookie](https://github.com/js-cookie/js-cookie) library.
 Thanks to that, you can simply enter `"set"`, `"get"`, `"delete"` one of three and if it is a `set`, you will enter all 4 arguments and if it is one of `get` or `delete`, you can only enter 2 arguments.
 The 4th argument is the date argument. You can either type it as a Number or String.
@@ -40,7 +40,7 @@ This will simply return element with that id.
 
 Questions
 --------------------------------------
-For questions, contact [here]("mailto:desbey7@naver.com")
+For questions, contact [here](mailto:desbey7@naver.com)
 
 
 Reminder
