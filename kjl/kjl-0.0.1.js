@@ -50,7 +50,7 @@ const kjlobject = {
             }
         }
         else if (abbv && name) {
-            if (abbv == "get") {return Cookies.get(name);}
+            if (abbv == "get") {console.log(Cookies.get(name));}
             else if (abbv == "remove") {Cookies.remove(name); return;}
             else {alert('kjl_48 error: didn\'t provide value, invalid option. try \'get\' or \'remove\'.')}
         }
